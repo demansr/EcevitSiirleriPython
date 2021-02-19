@@ -455,7 +455,7 @@ Aklı az olanın parası çok madem,
 Getir şu şarabı, alsın aklımızı
 Belki böyle değenir bizi el alem
     """
-    aminakodumun_hayati = """
+    hayat = """
 Yaşamaktan bezdim, ne yapsam?
 Birkaç yıl daha katlan, dedi.
 Nedir; dedim bu yaşamak?
@@ -467,7 +467,7 @@ Benim bu deli gönlüm, dedim;
 Ne zaman akıllanacak?
 Biraz daha kulağı burkulunca, dedi.
     """
-    allahiSi = """
+    siir5 = """
 Yetmiş iki ayrı millet, bir o kadar da din!
 Tek kaygısı seni sevmek benim milletimin;
 Kafirlik, müslümanlık neymiş; sevap, günah ne?
@@ -530,6 +530,5 @@ Mumlar gibi dünyaya ışık saldılar.
 Hangisi yarıp geçti bu karanlığı?
 Birer masal söyleyip uykuya daldılar.
     """
-
-    poems = [ey_kor, dortlukler, birgun_oleceksin, rubai2, elimde_olsa, rubailer, rubai2,rubai7,rubai7, aklimizi_alsin, aklimizi_alsin,aminakodumun_hayati,aminakodumun_hayati, allahiSi,bilginler, bos, kolelik, lol_hayyam, hayyAm]
+    poems = [ey_kor, dortlukler, birgun_oleceksin, rubai2, elimde_olsa, rubailer, rubai2,rubai7,rubai7, aklimizi_alsin, aklimizi_alsin,hayat,hayat, siir5,bilginler, bos, kolelik, lol_hayyam, hayyAm]
     return random.choice(poems)
