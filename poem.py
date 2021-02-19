@@ -1,5 +1,6 @@
+#eminim bunu yapmanının daha "iyi" bir yolu vardır
 import random
-def get_poem():
+def get_ecevit():
     canakkale = """
             Çanakkale
 Söyle Arkadaşım' dedi Anadolulu Mehmet
@@ -365,9 +366,170 @@ yalnızlığım sen
 kendimden bile uzakta
 elim elindeyken
     """
+    taka ="""
+      Taka
+ takalar geçiyor allı yeşilli
+takalar geçiyor dümenleri lâzlı
+takalar geçiyor en nazlı
+yelkenlilerden de güzel
 
+güvenli sularda işsiz dönenen
+gezi yelkenlerinden çok duyarak denizi
+takalar geçiyor enginlere
+yamalı göğsünü gere gere
+
+takalar geçiyor yükle yürekle
+takalar geçiyor emekle dolu
+günlük güneşlik kıyılarından kopmuş
+denizlerde Anadolu
+
+kıyılar kadın olmuş
+açılır gider erkeği
+takalar takalar toprağın
+denizde çarpan yüreği 
+    """
     poems = [canakkale, Pulumurun_yassız_kadini,yapadıgımız,cocuk,bach_sonatı, yarin, insan, aydaki_adam, yasa, sinir, ozgurluk, sevgi]
    
     return random.choice(poems)
 
-print(get_poem())
+def get_hayyam():
+
+    ey_kor = """
+          Ey Kör!
+Ey kör! bu yer, bu gök, bu yıldızlar, boştur boş!
+Bırak onu bunu da gönlünü hoş tut hoş!
+Şu durmadan kurulup dağılan evrende
+Bir nefestir alacağın, o da boştur boş! 
+    """
+    dortlukler = """
+          Dörtlükler
+ Kim görmüş o cenneti, cehennemi?
+Kim gitmiş de getirmiş haberini?
+Kimselerin bilmediği bir dünya
+Özlenmeye, korkulmaya deger mi?
+
+Dert içinde sevinci bul da yaşa;
+Haksız düzende haklı ol da yaşa;
+Sonu nasıl olsa yokluk dünyanın,
+Varından, yoğundan kurtul da yaşa.
+
+Bulut geldi; lalede bir renk bir renk
+Şimdi kızıl şarap içmemiz gerek.
+Şu seyrettiğin serin yeşillikler
+Yarın senin toprağında bitecek. 
+    """
+    birgun_oleceksin = """
+        Bir gün Öleceksin
+Hala korkular, renkler ardinda misin?
+Cirkinle güzel secmek kaydinda misin?
+Oldun diyelim Zemzem, ya da ab-i hayat
+Birgün öleceksin yar, farkinda misin? 
+    """
+    rubai2 = """
+          Rubailer 2
+Dünya yıldıramazsın beni ne yapsan
+Ölümden de korkmam, er geç ölür insan
+Ölmemek elimizde değil ki bizim
+İyi yaşamamak, beni tek korkutan 
+    """
+    elimde_olsa = """
+        Elimde Olsa
+Elimde olsa bu dunyayı kücümserdim İyisinede kotüsünede yuh cekerdim Daha dogrusu bu asağılık yere Ne gelirdim ne yaşardım ne ölürdüm 
+    """
+    rubailer = """
+Tanrı, cennette şarap içeceksin der
+Aynı Tanrı şarabı nasıl haram eder
+Hamza bir arabın devesini öldürmüş
+Şarabı yalnız ona haram etmiş Peygamber 
+    """
+    rubai7 = """
+Felek ne cömert aşağılık insanlara
+Han, hamam, dolap, değirmen, hep onlara
+Kendini satmayan adama ekmek yok
+Sen gel de yuf çekme böylesi dünyaya ! 
+    """
+
+    aklimizi_alsin = """
+Dünyada akla değer veren yok madem,
+Aklı az olanın parası çok madem,
+Getir şu şarabı, alsın aklımızı
+Belki böyle değenir bizi el alem
+    """
+    aminakodumun_hayati = """
+Yaşamaktan bezdim, ne yapsam?
+Birkaç yıl daha katlan, dedi.
+Nedir; dedim bu yaşamak?
+Bir düş, dedi; birkaç görüntü.
+Evi barkı olmak nedir? dedim;
+Biraz keyfetmek için
+Yıllar yılı dert çekmek, dedi.
+Benim bu deli gönlüm, dedim;
+Ne zaman akıllanacak?
+Biraz daha kulağı burkulunca, dedi.
+    """
+    allahiSi = """
+Yetmiş iki ayrı millet, bir o kadar da din!
+Tek kaygısı seni sevmek benim milletimin;
+Kafirlik, müslümanlık neymiş; sevap, günah ne?
+Maksat sensin, araya dolambaçlar girmesin.
+    """
+    bilginler = """
+O bilginler ki evrenin özetidirler;
+Düşüncelerinin atı göklerde gezer;
+İş kavramaya gelinde Senin özünü
+Şaşkınlıktan Felek gibi başları döner.
+    """
+    bos = """
+Dünya “muhdes” mi “kadim” mi diye tartışmak boş:
+Ben gittikten sonra ha “muhdes” olmuş ha “kadim”!
+
+Ta baştan gereği düşünülmüş her şeyin
+Neden boşuna uğraşır, dertlenir insan?
+
+Kendimi düzeltmeğe nasıl varsın elim:
+Senden güzelini yapmak bana mı kalmış!
+
+Özgürlüğe ermiş, sarhoş olmuşuz birlikte.
+    """
+    kolelik = """
+Putların, Kabenin istediği: Kölelik
+Çanların, ezanların dilediği: Kölelik
+Mihraptı, kiliseydi, tesbihti, salipti:
+Nedir hepsinin özlediği? Kölelik.
+
+Yeryüzünü gül bahçesine çevirmekten
+Daha güzeldir bir insanı sevindirmen.
+Bin kulu azat edenden daha büyüktür
+Bir hür insanı iyilikle kul edebilen.
+
+Tekkede, medresede, manastırda, kilisede,
+Bir cennet cehennem kaygısıdır sürüp gitmede.
+Oysa yüce varlığın sırlarına eren kişi
+Bunların tohumunu uğratmaz düşüncesine.
+
+Meyhanede kendini bilenler bulunur;
+Bilmeyenleri ayırmak da kolay olur.
+Yıkılsın bilgisizlik yuvası medrese:
+Ordan kendini bilip de çıkan hiç yoktur.
+
+Güçlü olduğuna inandırdın beni;
+Bol bol da verdin bana vereceklerini.
+Yüz yıl günah işleyip bilmek isterim:
+Günahlar mı sonsuz, senin rahmetin mi?"""
+    lol_hayyam="""
+Camiye gittim, ama Allah bilir niye:
+Ne namaz kılmaya, ne dua etmeye.
+Eskiden bir kilim aşırmıştım camiden
+O eskidi, gittim yenisini yürütmeye.
+
+Ne din umurumda, ne cennet, ne dünya!
+    """
+    hayyAm = """
+Ne bilginler geldi, neler buldular!
+Mumlar gibi dünyaya ışık saldılar.
+Hangisi yarıp geçti bu karanlığı?
+Birer masal söyleyip uykuya daldılar.
+    """
+
+    poems = [ey_kor, dortlukler, birgun_oleceksin, rubai2, elimde_olsa, rubailer, rubai2,rubai7,rubai7, aklimizi_alsin, aklimizi_alsin,aminakodumun_hayati,aminakodumun_hayati, allahiSi,bilginler, bos, kolelik, lol_hayyam, hayyAm]
+    return random.choice(poems)
