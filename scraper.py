@@ -19,6 +19,6 @@ for tags in linkler:
     result = soup.find(class_="pd-text")
     result = result.prettify()
     result = soup.find_all("p")[2].get_text()
-    file = open("yeni.txt", "a")
+    file = open("textfile.txt", "a")
     result = str(result)
     file.write(result)
